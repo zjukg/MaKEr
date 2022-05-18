@@ -1,6 +1,6 @@
 # MaKEr
 
-This repository contains the experimental code for our IJCAI 2022 paper: Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated Setting. We study the knowledge extrapolation problem to embed new components (i.e., entities and relations) that come with emerging knowledge graphs (KGs) in the federated setting. In this problem, a model trained on an existing KG needs to embed an emerging KG with unseen entities and relations. 
+This repository contains the experimental code for our IJCAI 2022 paper: [Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated Setting](https://arxiv.org/abs/2205.04692). We study the knowledge extrapolation problem to embed new components (i.e., entities and relations) that come with emerging knowledge graphs (KGs) in the federated setting. In this problem, a model trained on an existing KG needs to embed an emerging KG with unseen entities and relations. 
 
 ![method](./fig/method.png)
 
@@ -63,7 +63,16 @@ The training losses and validation results will be printed and saved in the corr
 
 We put the tensorboard log files in ``./tb_log`` and trained model state dicts in ``./state``.
 
-<!--## Citation
-Please cite our paper if you use SimCSE in your work:-->
+## Citation
+Please cite our paper if you use SimCSE in your work:
+
+```latex
+@article{chen2022meta,
+  title={Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated Setting},
+  author={Chen, Mingyang and Zhang, Wen and Yao, Zhen and Chen, Xiangnan and Ding, Mengxiao and Huang, Fei and Chen, Huajun},
+  journal={arXiv preprint arXiv:2205.04692},
+  year={2022}
+}
+```
 
 
