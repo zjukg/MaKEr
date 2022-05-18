@@ -64,7 +64,7 @@ The training losses and validation results will be printed and saved in the corr
 We put the tensorboard log files in ``./tb_log`` and trained model state dicts in ``./state``.
 
 ## Citation
-Please cite our paper if you use SimCSE in your work:
+Please cite our paper if you use our model in your work:
 
 ```latex
 @article{chen2022meta,
