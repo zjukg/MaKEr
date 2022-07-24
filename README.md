@@ -67,11 +67,19 @@ We put the tensorboard log files in ``./tb_log`` and trained model state dicts i
 Please cite our paper if you use our model in your work:
 
 ```latex
-@article{chen2022meta,
-  title={Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated Setting},
-  author={Chen, Mingyang and Zhang, Wen and Yao, Zhen and Chen, Xiangnan and Ding, Mengxiao and Huang, Fei and Chen, Huajun},
-  journal={arXiv preprint arXiv:2205.04692},
-  year={2022}
+@inproceedings{MaKEr,
+  title     = {Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated Setting},
+  author    = {Chen, Mingyang and Zhang, Wen and Yao, Zhen and Chen, Xiangnan and Ding, Mengxiao and Huang, Fei and Chen, Huajun},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {1966--1972},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track}
+  doi       = {10.24963/ijcai.2022/273},
+  url       = {https://doi.org/10.24963/ijcai.2022/273},
 }
 ```
 
